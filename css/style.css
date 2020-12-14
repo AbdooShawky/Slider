@@ -1,0 +1,47 @@
+ body
+{
+    font-family: 'segoe ui light';
+    background-color: #313131;
+    color: #fff;
+}
+.portfolio-image {
+    cursor: pointer;
+}
+.image-caption{
+    /* padding: 10px 0; */
+    position: absolute;
+    font-weight: 500;
+    background-color: #fff;
+    color: black;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.image-preview{
+    width: 50%;
+    height: 650px;
+    
+}
+.close-icon{
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+}
+.arrow-icon{
+    padding: 15px;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+    top: 50%;
+}
